@@ -1,0 +1,1 @@
+# tintaki.edu
