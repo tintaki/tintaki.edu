@@ -43,9 +43,7 @@ class Rocket:
         
         
         
-''' создание нового экземпляра класса с
- начальными значениями параметров
-'''        
+        
 main = Rocket(1000, 400, True)
 
 while main.active == True:
@@ -53,6 +51,6 @@ while main.active == True:
     
     main.spend_fuel(30)
     
-    time.sleep(0.1)
+    time.sleep(0.60)
     
     print(main.get_total_weight(), main.get_fuel_level(), main.active)
